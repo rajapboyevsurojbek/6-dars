@@ -1,0 +1,36 @@
+.enter {
+  &__wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__title {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.88px;
+  }
+
+  &__sub-title {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 43.88px;
+  }
+
+
+  &__info {
+    color: #ffffff;
+  }
+}
+
+
+@media (max-width: 570px) {
+    .enter {
+
+
+        &__info {
+            display: none;
+        }
+    }
+}

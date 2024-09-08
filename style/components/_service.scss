@@ -1,0 +1,53 @@
+.service {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 206px 0;
+  }
+
+  &__control {
+    display: flex;
+    position: relative;
+  }
+
+  &__btn {
+    padding: 40px 0 40px 140px;
+    width: 349px;
+    background: radial-gradient(
+      50% 2900.76% at 50% 53.89%,
+      rgba(58, 52, 86, 0.95) 0%,
+      #211e2e 100%
+    );
+    color: #ffffff;
+    border-radius: 50px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    transition: 2s;
+    border: none;
+  }
+
+  &__btn:hover {
+    background: #f6fa036a;
+    transition: 2s;
+  }
+
+  img {
+    position: absolute;
+    left: 5%;
+    top: 20%;
+  }
+}
+
+
+@media (max-width: 570px) {
+  .service {
+    
+    &__wrapper {
+      flex-direction: column;
+      gap: 50px;
+    }
+
+  }
+}
